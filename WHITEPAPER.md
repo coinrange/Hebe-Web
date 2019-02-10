@@ -99,5 +99,6 @@ HEBE构建的系统，将每一枚钱币(coin)都看做是一台微小的挖矿�
 
 * 由于被单一账号控制blockchain的几率及其低，一旦交易被一个block确认后又生成了至少10个block，此时交易被认为是安全确认的
 
+![image](./whitepaper/peer.png)
 
 

@@ -90,7 +90,7 @@ $(document).ready(function(){
         
         function makeTimer() {
 
-                var endTime = new Date("July 1, 2018 12:00:00 PDT");
+                var endTime = new Date("July 18, 2018 12:00:00 PDT");
                 var endTime = (Date.parse(endTime)) / 1000;
 
                 var now = new Date();
