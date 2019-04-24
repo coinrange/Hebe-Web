@@ -245,15 +245,21 @@ HebeBlock 账户可以通过增强的多重签名方法来保障数字资产的�
 
 ### Hebe手机钱包
 
-这是一款多链钱包，以HEBE为中心，目前支持币种Hebe，Nxt，Ardor，Ignis，Apl，Rya，Actn ，网站：https://d.hebeblock.com/
+这是一款多链钱包，以HEBE为中心，目前支持币种Hebe，Btc，Ltc， Eth，Etc，Bch，Waves，Doge，Xzc，Nxt，Ardor，Xas ，Dgb，Dcr，Dash，Zec，Zen，Eac，Ltz，Ignis，Apl，Rya， Actn，内置币币兑换，优惠劵，网站：https://d.hebeblock.com/
 
 旨在解决用户管理多种数字货币的不便，日后会逐步追加新链支持和HEBE功能
 
-### HEBE量化系统
+### HEBE优惠劵
 
-目前完全支持BINANCE,GDAX，Poloniex，Kraken，Bittrex，Quadriga，Gemini，Bitfinex，CEX.IO,Bitstamp交易所
+购物返利平台，目前已经正常运行，流水1w2，盈利用于回购/销毁Hebe，举列（某个平台，购买返利盈利20w回购）
 
-最近一次量化，开始时间2019年1月2日-2019年2月10日，币安量化408ETC开始，目前持有453ETC，一个月收益11.2%
+### HEBE中心化交易所
+
+目前正在测试中，界面如下：
+
+### HEBE去中心化资产交易所
+
+基于HebeBlock区块链的资产去中心化交易所，可以支持Hebe购买其他资产，比如（资产Btc，Eth。。。）
 
 ### HEBE死亡硬币小程序
 
@@ -297,9 +303,10 @@ HEBE小说搜索引擎，提供且仅提供第三方搜索引擎提供的小说�
 
 * 第二阶段（2019年2月〜2019年4月）将重点关注HEBE的兑换出售，以及联系交易所
 
-* 第三阶段（2019年4月〜2019年12月）组建HEBE团队，开发全新的网页钱包，以及开发HEBE移动客户端
+* 第三阶段（2019年4月〜2019年12月）组建HEBE团队，开发全新的网页钱包，以及开发HEBE移动客户端，中心化交易所开发
 
-* 第四阶段（2020年1月以后）将重点关注HEBE网络，HEBE SDK和移动客户端的进一步技术创新，以及开发人员参与。
+* 第四阶段（2020年1月以后）将重点关注HEBE网络底层重写，提升HEBE网络效率，HEBE SDK和移动客户端的进一步技术创新，以及开发人员参与
+
 
 ## 团队
 
