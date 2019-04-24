@@ -245,9 +245,9 @@ HebeBlock 账户可以通过增强的多重签名方法来保障数字资产的�
 
 ### Hebe多链手机钱包
 
-这是一款多链钱包，以HEBE为中心，目前支持币种Hebe，Btc，Ltc， Eth，Etc，Bch，Waves，Doge，Xzc，Nxt，Ardor，Xas ，Dgb，Dcr，Dash，Zec，Zen，Eac，Ltz，Ignis，Apl，Rya， Actn，内置币币兑换，优惠劵，网站：https://d.hebeblock.com/，还会不停支持更多的币种，做支持最多币种的去中心化钱包
+这是一款多链钱包，以HEBE为中心，目前支持币种Hebe，Btc，Ltc， Eth，Etc，Bch，Waves，Doge，Xzc，Nxt，Ardor，Xas ，Dgb，Dcr，Dash，Zec，Zen，Eac，Ltz，Ignis，Apl，Rya， Actn，内置币币兑换，优惠劵，网站：https://d.hebeblock.com/，
 
-旨在解决用户管理多种数字货币的不便，日后会逐步追加新链支持和HEBE功能
+旨在解决用户管理多种数字货币的不便，日后会逐步追加更多区块链支持和HEBE功能，做成支持最多链的去中心化钱包。
 
 ### HEBE优惠劵
 
@@ -256,6 +256,7 @@ HebeBlock 账户可以通过增强的多重签名方法来保障数字资产的�
 ### HEBE中心化交易所
 
 目前正在测试中，HEBETOKEN作为平台币，可用于手续费的减免等，平台盈利用于回购/销毁Hebe
+
 界面如下：（只供参考，最后成品不一定是下图）
 ![image](./whitepaper/ex.png)
 ![image](./whitepaper/ex1.png)
