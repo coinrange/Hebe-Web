@@ -1,939 +1,549 @@
-<!doctype html>
-<html class="no-js"  lang="en">
-
-	<head>
-		<!-- META DATA -->
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-
-		<!--font-family-->
-		<link href="https://fonts.googleapis.com/css?family=Rufina:400,700" rel="stylesheet" />
-
-		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
-
-		<!-- TITLE OF SITE -->
-		<title>HebeBlock</title>
-
-		<!-- favicon img -->
-		<link rel="shortcut icon" type="image/icon" href="assets/logo/logo.ico"/>
-
-		<!--font-awesome.min.css-->
-		<link rel="stylesheet" type="text/css" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
-		<!--animate.css-->
-		<link rel="stylesheet" href="assets/css/animate.css" />
-
-		<!--hover.css-->
-		<link rel="stylesheet" href="assets/css/hover-min.css">
-
-		<!--datepicker.css-->
-		<link rel="stylesheet"  href="assets/css/datepicker.css" >
-
-		<!--owl.carousel.css-->
-        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-		<link rel="stylesheet" href="assets/css/owl.theme.default.min.css"/>
-
-		<!-- range css-->
-        <link rel="stylesheet" type="text/css" href="assets/css/jquery-ui.min.css">
-
-		<!--bootstrap.min.css-->
-		<link rel="stylesheet" type="text/css" href="https://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css">
-
-		<!-- bootsnav -->
-		<link rel="stylesheet" href="assets/css/bootsnav.css"/>
-
-		<!--style.css-->
-		<link rel="stylesheet" href="assets/css/style.css?date=20180523" />
-
-		<!--responsive.css-->
-		<link rel="stylesheet" href="assets/css/responsive.css" />
-
-		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-
-		<!--[if lt IE 9]>
-		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-		<![endif]-->
-		<style class="cp-pen-styles">
-
-			.modal-backdrop{
-				display: none;
-			}
-			@keyframes rotate {
-				0% {
-					transform: perspective(400px) rotateZ(20deg) rotateX(-40deg) rotateY(0);
-				}
-				100% {
-					transform: perspective(400px) rotateZ(20deg) rotateX(-40deg) rotateY(-360deg);
-				}
-			}
-			.stars {
-				transform: perspective(500px);
-				transform-style: preserve-3d;
-				position: absolute;
-				bottom: 0;
-				perspective-origin: 50% 100%;
-				left: 50%;
-				animation: rotate 90s infinite linear;
-			}
-
-			.star {
-				width: 2px;
-				height: 2px;
-				background: #F7F7B6;
-				position: absolute;
-				top: 0;
-				left: 0;
-				transform-origin: 0 0 -300px;
-				transform: translate3d(0, 0, -300px);
-				backface-visibility: hidden;
-			}
-		</style>
-	</head>
-
-	<body>
-		<!--[if lte IE 9]>
-		<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
-			your browser</a> to improve your experience and security.</p>
-		<![endif]-->
-
-		<!-- main-menu Start -->
-		<header class="top-area">
-			<div class="header-area">
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-3">
-							<div class="logo">
-								<a href="index.html">
-									<img style="width: 40px;float: left;    margin-top: -4px;" src="assets/images/home/logo2.png">
-									hebe<span>Block</span>
-								</a>
-							</div><!-- /.logo-->
-						</div><!-- /.col-->
-						<div class="col-sm-9">
-							<div class="main-menu">
-							
-								<!-- Brand and toggle get grouped for better mobile display -->
-								<div class="navbar-header">
-									<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-										<i class="fa fa-bars"></i>
-									</button><!-- / button-->
-								</div><!-- /.navbar-header-->
-								<div class="collapse navbar-collapse">		  
-									<ul class="nav navbar-nav navbar-right">
-										<li class="smooth-menu"><a class="a" href="#home">主页</a></li>
-										<li class="smooth-menu"><a class="a" href="#blog">功能</a></li>
-										<li class="smooth-menu"><a href="https://github.com/HebePlatform/Hebe-Web/blob/master/WHITEPAPER.md" target="_blank" >白皮书</a></li>
-										<li class="smooth-menu"><a href="http://bbs.hebeblock.com/" target="_blank" >论坛</a></li>
-										<li class="smooth-menu"><a href="http://block.hebeblock.com/#/" target="_blank" >区块浏览器</a></li>
-										<li class="smooth-menu"><a class="a" href="#team">团队</a></li>
-										<li class="smooth-menu"><a class="a" href="#Cooperation">入驻应用</a></li>
-										<li class="smooth-menu"><a class="a" href="#subs">加入我们 </a></li>
-										<li class="smooth-menu"><a class="a" href="#contacts">联系我们 </a></li>
-										<!--<li>-->
-											<!--<button class="book-btn">book now-->
-											<!--</button>-->
-										<!--</li>&lt;!&ndash;/.project-btn&ndash;&gt; -->
-									</ul>
-								</div><!-- /.navbar-collapse -->
-							</div><!-- /.main-menu-->
-						</div><!-- /.col-->
-					</div><!-- /.row -->
-					<div class="home-border"></div><!-- /.home-border-->
-				</div><!-- /.container-->
-			</div><!-- /.header-area -->
-
-		</header><!-- /.top-area-->
-		<!-- main-menu End -->
-
-		
-		<!--about-us start -->
-		<section id="home" class="about-us">
-			<div class="stars">
-
-			</div>
-			<div class="container">
-				<div class="about-us-content">
-					<div class="row">
-						<div class="col-sm-12">
-							<div class="single-about-us">
-								<div class="about-us-txt">
-									<h2>
-										HebeBlock
-										<h2>聚焦区块链长尾市场</h2>
-										<h2 style="font-size: 42px">──构建多维 Token 经济生态群落</h2>
-									</h2>
-
-
-									<div class="about-btn">
-										<a href="https://github.com/HebePlatform/Hebe-Block/releases/download/1.11.13/HEBE-client-1.11.13.zip" target="_blank">
-											<button  class="about-view">
-												测试钱包下载
-											</button>
-										</a>
-										<a target="_blank" href="http://wallet.hebeblock.com/">
-											<button  style="    background-color: #fff;
-    border-color: #ccc;color: #000" class="about-view">
-												测试在线钱包
-											</button>
-										</a>
-
-									</div><!--/.about-btn-->
-
-								</div><!--/.about-us-txt-->
-							</div><!--/.single-about-us-->
-						</div><!--/.col-->
-						<div class="col-sm-0">
-							<div class="single-about-us">
-
-							</div><!--/.single-about-us-->
-						</div><!--/.col-->
-					</div><!--/.row-->
-				</div><!--/.about-us-content-->
-			</div><!--/.container-->
-
-		</section><!--/.about-us-->
-		<!--about-us end -->
-        <!--service start-->
-		<section id="service" class="service">
-			<div class="container">
-
-				<div class="service-counter text-center">
-
-					<div class="col-md-4 col-sm-4">
-						<div class="single-service-box">
-							<div class="service-img">
-								<img src="assets/images/service/s1.png" alt="service-icon" />
-							</div><!--/.service-img-->
-							<div class="service-content">
-								<h2>
-									<a href="#">
-										分散
-									</a>
-								</h2>
-								<p>
-									20余万nxt用户积淀，HebeBlock从出生即具备分布式理念
-								</p>
-							</div><!--/.service-content-->
-						</div><!--/.single-service-box-->
-					</div><!--/.col-->
-
-					<div class="col-md-4 col-sm-4">
-						<div class="single-service-box">
-							<div class="service-img">
-								<img src="assets/images/service/s2.png" alt="service-icon" />
-							</div><!--/.service-img-->
-							<div class="service-content">
-								<h2>
-									<a href="#">
-										功能
-									</a>
-								</h2>
-								<p>
-									资产交换，货币体系，数据云，投票系统，账户控制，匿名混币
-								</p>
-							</div><!--/.service-content-->
-						</div><!--/.single-service-box-->
-					</div><!--/.col-->
-
-					<div class="col-md-4 col-sm-4">
-						<div class="single-service-box">
-							<div class="statistics-img">
-								<img src="assets/images/service/s3.png" alt="service-icon" />
-							</div><!--/.service-img-->
-							<div class="service-content">
-
-								<h2>
-									<a href="#">
-										环保
-									</a>
-								</h2>
-								<p>
-									100% POS，节能，无挖矿
-								</p>
-							</div><!--/.service-content-->
-						</div><!--/.single-service-box-->
-					</div><!--/.col-->
-
-				</div><!--/.statistics-counter-->	
-			</div><!--/.container-->
-
-		</section><!--/.service-->
-		<!--service end-->
-		<!--discount-offer start-->
-		<section class="discount-offer">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-12">
-						<div class="dicount-offer-content text-center">
-
-							<h2>
-							</h2>
-							<!--<div class="campaign-timer">-->
-								<!--<div id="timer">-->
-									<!--<div class="time time-after" id="days">-->
-										<!--<span></span>-->
-									<!--</div>&lt;!&ndash;/.time&ndash;&gt;-->
-									<!--<div class="time time-after" id="hours">-->
-
-									<!--</div>&lt;!&ndash;/.time&ndash;&gt;-->
-									<!--<div class="time time-after" id="minutes">-->
-
-									<!--</div>&lt;!&ndash;/.time&ndash;&gt;-->
-									<!--<div class="time" id="seconds">-->
-
-									<!--</div>&lt;!&ndash;/.time&ndash;&gt;-->
-								<!--</div>&lt;!&ndash;/.timer&ndash;&gt;-->
-							<!--</div>&lt;!&ndash;/.campaign-timer&ndash;&gt;-->
-							<!--<div class="about-btn">-->
-								<!--<a href="http://forum.walletnxt.com/t/59" target="_blank">-->
-									<!--<button  class="about-view discount-offer-btn">-->
-										<!--创世帖-->
-									<!--</button>-->
-								<!--</a>-->
-							<!--</div>&lt;!&ndash;/.about-btn&ndash;&gt;-->
-
-
-						</div><!-- /.dicount-offer-content-->
-					</div><!-- /.col-->
-				</div><!-- /.row-->
-			</div><!-- /.container-->
-
-		</section><!-- /.discount-offer-->
-		<!--discount-offer end-->
-
-		<!--blog start-->
-		<section id="blog" class="blog">
-			<div class="container">
-				<div class="blog-details">
-					<div class="gallary-header text-center">
-						<h2>
-							功能
-						</h2>
-					</div><!--/.gallery-header-->
-					<div class="blog-content">
-						<div class="row">
-
-							<div class="col-sm-4 col-md-4">
-								<div class="thumbnail">
-									<h2>资产交换</h2>
-									<div class="thumbnail-img">
-										<img src="assets/images/blog/b1.jpg" alt="blog-img">
-										<div class="thumbnail-img-overlay"></div><!--/.thumbnail-img-overlay-->
-
-									</div><!--/.thumbnail-img-->
-
-									<div class="caption">
-										<div class="blog-txt">
-											<h3>
-												<a href="#">
-													在Hebe上创建自己的项目。Hebe资产交易所提供安全，直接的点对点交易
-												</a>
-											</h3>
-											<p>
-												用户可在 HebeBlock 上创建自己的专属项目，并可在系统内置的 HebeBlock 资产交
-												易所进行安全快速的点对点交易。这消除了转移资产或将信任放在外部代理机构或业务中
-												的必要性											</p>
-										</div><!--/.blog-txt-->
-									</div><!--/.caption-->
-								</div><!--/.thumbnail-->
-
-							</div><!--/.col-->
-
-							<div class="col-sm-4 col-md-4">
-								<div class="thumbnail">
-									<h2>货币体系</h2>
-									<div class="thumbnail-img">
-										<img src="assets/images/blog/b2.jpg" alt="blog-img">
-										<div class="thumbnail-img-overlay"></div><!--/.thumbnail-img-overlay-->
-
-									</div><!--/.thumbnail-img-->
-									<div class="caption">
-										<div class="blog-txt">
-											<h3>
-												<a href="#">
-													启动您自己的数字货币。交易，分享和交换
-												</a>
-											</h3>
-											<p>
-												HebeBlock 货币系统允许用户创建和交易其自定义货币。同时，货币作为特定类别的
-												资产，它将具有多个额外特性，例如能够使用 HebeToken 来保持其稳定价值
-											</p>
-										</div><!--/.blog-txt-->
-									</div><!--/.caption-->
-								</div><!--/.thumbnail-->
-
-							</div><!--/.col-->
-
-							<div class="col-sm-4 col-md-4">
-								<div class="thumbnail">
-									<h2>数据云</h2>
-									<div class="thumbnail-img">
-										<img src="assets/images/blog/b3.jpg" alt="blog-img">
-										<div class="thumbnail-img-overlay"></div><!--/.thumbnail-img-overlay-->
-
-									</div><!--/.thumbnail-img-->
-									<div class="caption">
-										<div class="blog-txt">
-											<h3><a href="#">Hebe区块链上的数据存储，发布和验证。安全，简单和有效</a></h3>
-											<p>
-												HebeBlock 数据云是一个分散的数据存储系统，其可提供防篡改时间戳记。 这允许
-												将合法记录（例如合同）嵌入区块链中，并对其创建时间赋予绝对的准确性。
-											</p>
-										</div><!--/.blog-txt-->
-									</div><!--/.caption-->
-								</div><!--/.thumbnail-->
-
-							</div><!--/.col-->
-
-						</div><!--/.row-->
-						<div class="row">
-							<div class="col-sm-4 col-md-4">
-								<div class="thumbnail">
-									<h2>投票系统</h2>
-									<div class="thumbnail-img">
-										<img src="assets/images/blog/b4.jpg" alt="blog-img">
-										<div class="thumbnail-img-overlay"></div><!--/.thumbnail-img-overlay-->
-
-									</div><!--/.thumbnail-img-->
-
-									<div class="caption">
-										<div class="blog-txt">
-											<h3>
-												<a href="#">
-													创建自定义民意调查，通过Hebe区块链验证。通过区块链实现个人授权
-												</a>
-											</h3>
-											<p>
-												分散的系统和组织需要有一种达成共识的手段。HebeBlock 投票系统是 HebeBlock
-												账户控制系统的一部分，允许一组用户批准或拒绝交易。 HebeBlock 投票的结果可以以
-												多种方式使用，具体取决于项目特性
-										</div><!--/.blog-txt-->
-									</div><!--/.caption-->
-								</div><!--/.thumbnail-->
-
-							</div><!--/.col-->
-
-							<div class="col-sm-4 col-md-4">
-								<div class="thumbnail">
-									<h2>帐户控制</h2>
-									<div class="thumbnail-img">
-										<img src="assets/images/blog/b5.jpg" alt="blog-img">
-										<div class="thumbnail-img-overlay"></div><!--/.thumbnail-img-overlay-->
-
-									</div><!--/.thumbnail-img-->
-									<div class="caption">
-										<div class="blog-txt">
-											<h3>
-												<a href="#">
-													使用Hebe创建安全的多重签名账户。分散的自治组织变得容易
-												</a>
-											</h3>
-											<p>
-												HebeBlock 账户可以通过增强的多重签名方法来保障数字资产的安全。账户拥有者可
-												将账号设置为受限于上述投票系统，这意味着用户可以限制某些未知来源对账户的访问或
-												者禁止未经多方批准情形下的交易行为。
-											</p>
-										</div><!--/.blog-txt-->
-									</div><!--/.caption-->
-								</div><!--/.thumbnail-->
-
-							</div><!--/.col-->
-
-							<div class="col-sm-4 col-md-4">
-								<div class="thumbnail">
-									<h2>匿名混币</h2>
-									<div class="thumbnail-img">
-										<img src="assets/images/blog/b6.jpg" alt="blog-img">
-										<div class="thumbnail-img-overlay"></div><!--/.thumbnail-img-overlay-->
-
-									</div><!--/.thumbnail-img-->
-									<div class="caption">
-										<div class="blog-txt">
-											<h3><a href="#">Hebe去中心化的匿名隐私服务</a></h3>
-											<p>
-												匿名混币是一个去中心化的匿名隐私服务，它可以让用户快速高效地与其他用户的资
-												金进行混合， 在现有的用户账户和混币后的新账户之间创建随机的映射关系，从而实现完
-												全匿名。
-											</p>
-										</div><!--/.blog-txt-->
-									</div><!--/.caption-->
-								</div><!--/.thumbnail-->
-
-							</div><!--/.col-->
-
-						</div><!--/.row-->
-
-					</div><!--/.blog-content-->
-				</div><!--/.blog-details-->
-			</div><!--/.container-->
-
-		</section><!--/.blog-->
-		<!--blog end-->
-		<!-- testemonial Start -->
-		<section  id="team"  class="testemonial">
-			<div class="container">
-
-				<div class="gallary-header text-center">
-					<h2>
-						团队
-					</h2>
-
-				</div><!--/.gallery-header-->
-
-				<div class="owl-carousel owl-theme" id="testemonial-carousel">
-					<div class="home1-testm item">
-						<div class="home1-testm-single text-center">
-							<div class="home1-testm-img">
-								<img src="assets/images/client/WasonZhang.png" alt="img"/>
-							</div><!--/.home1-testm-img-->
-							<div class="home1-testm-txt">
-								<span class="icon section-icon">
-									<i class="fa fa-quote-left" aria-hidden="true"></i>
-								</span>
-								<p>
-									全栈开发工程师，未来币中文社区意见领袖、walletnxt.com 创始人
-								</p>
-								<h3>
-									<a href="#">
-										Wason Zhang
-									</a>
-								</h3>
-								<h4>创始人团队</h4>
-							</div><!--/.home1-testm-txt-->
-						</div><!--/.home1-testm-single-->
-
-					</div><!--/.item-->
-					<div class="home1-testm item">
-						<div class="home1-testm-single text-center">
-							<div class="home1-testm-img">
-								<img src="assets/images/client/GavinWu.jpg" alt="img"/>
-							</div><!--/.home1-testm-img-->
-							<div class="home1-testm-txt">
-								<span class="icon section-icon">
-									<i class="fa fa-quote-left" aria-hidden="true"></i>
-								</span>
-								<p>
-									全栈开发工程师。区块链评级组织“链 AI”发起人。
-								</p>
-								<h3>
-									<a href="#">
-										Gavin Wu
-									</a>
-								</h3>
-								<h4>创始人团队</h4>
-							</div><!--/.home1-testm-txt-->
-						</div><!--/.home1-testm-single-->
-
-					</div><!--/.item-->
-
-					<div class="home1-testm item">
-						<div class="home1-testm-single text-center">
-							<div class="home1-testm-img">
-								<img src="assets/images/client/testimonial1.jpg" alt="img"/>
-							</div><!--/.home1-testm-img-->
-							<div class="home1-testm-txt">
-								<span class="icon section-icon">
-									<i class="fa fa-quote-left" aria-hidden="true"></i>
-								</span>
-								<p>
-									在黑暗中彷徨的人们，终有一天将沐浴光明
-								</p>
-								<h3>
-									<a href="#">
-										虚位以待
-									</a>
-								</h3>
-								<h4>虚位以待</h4>
-							</div><!--/.home1-testm-txt-->	
-						</div><!--/.home1-testm-single-->
-
-					</div><!--/.item-->
-
-					<div class="home1-testm item">
-						<div class="home1-testm-single text-center">
-							<div class="home1-testm-img">
-								<img src="assets/images/client/testimonial2.jpg" alt="img"/>
-							</div><!--/.home1-testm-img-->
-							<div class="home1-testm-txt">
-								<span class="icon section-icon">
-									<i class="fa fa-quote-left" aria-hidden="true"></i>
-								</span>
-								<p>
-									只要活着就应该做点什么，做不做得到，不试试看怎么知道
-								<h3>
-									<a href="#">
-										虚位以待
-									</a>
-								</h3>
-								<h4>虚位以待</h4>
-							</div><!--/.home1-testm-txt-->	
-						</div><!--/.home1-testm-single-->
-
-					</div><!--/.item-->
-
-					<div class="home1-testm item">
-						<div class="home1-testm-single text-center">
-							<div class="home1-testm-img">
-								<img src="assets/images/client/testimonial3.jpg" alt="img"/>
-							</div><!--/.home1-testm-img-->
-							<div class="home1-testm-txt">
-								<span class="icon section-icon">
-									<i class="fa fa-quote-left" aria-hidden="true"></i>
-								</span>
-								<p>
-									黑暗笼罩的世界里，需要有人用光来引导他们
-								</p>
-								<h3>
-									<a href="#">
-										虚位以待
-									</a>
-								</h3>
-								<h4>虚位以待</h4>
-							</div><!--/.home1-testm-txt-->	
-						</div><!--/.home1-testm-single-->
-
-					</div><!--/.item-->
-
-					<div class="home1-testm item">
-						<div class="home1-testm-single text-center">
-							<div class="home1-testm-img">
-								<img src="assets/images/client/testimonial4.jpg" alt="img"/>
-							</div><!--/.home1-testm-img-->
-							<div class="home1-testm-txt">
-								<span class="icon section-icon">
-									<i class="fa fa-quote-left" aria-hidden="true"></i>
-								</span>
-								<p>
-									一个好的程序员应该是那种过单行线都要往两边看的人。
-								</p>
-								<h3>
-									<a href="#">
-										虚位以待
-									</a>
-								</h3>
-								<h4>虚位以待</h4>
-							</div><!--/.home1-testm-txt-->	
-						</div><!--/.home1-testm-single-->
-
-					</div><!--/.item-->
-
-					<div class="home1-testm item">
-						<div class="home1-testm-single text-center">
-							<div class="home1-testm-img">
-								<img src="assets/images/client/testimonial5.jpg" alt="img"/>
-							</div><!--/.home1-testm-img-->
-							<div class="home1-testm-txt">
-								<span class="icon section-icon">
-									<i class="fa fa-quote-left" aria-hidden="true"></i>
-								</span>
-								<p>
-									这辈子绝对不能在IE浏览器兼容性问题上妥协
-								</p>
-								<h3>
-									<a href="#">
-										虚位以待
-									</a>
-								</h3>
-								<h4>虚位以待</h4>
-							</div><!--/.home1-testm-txt-->	
-						</div><!--/.home1-testm-single-->
-
-					</div><!--/.item-->
-
-				</div><!--/.testemonial-carousel-->
-			</div><!--/.container-->
-
-		</section><!--/.testimonial-->	
-		<!-- testemonial End -->
-
-		<!--blog start-->
-		<section id="Cooperation" class="blog">
-			<div class="container">
-				<div class="blog-details">
-					<div class="gallary-header text-center">
-						<h2>
-							入驻应用
-						</h2>
-					</div><!--/.gallery-header-->
-					<div class="blog-content">
-						<div class="row">
-							<a   target="_blank" href="https://walletnxt.com/">
-								<div class="col-sm-4 col-md-4">
-									<div class="thumbnail">
-										<h2>walletnxt</h2>
-										<div class="thumbnail-img">
-											<img src="assets/images/cooper/hebe-walletnxt.png" alt="blog-img">
-											<div class="thumbnail-img-overlay"></div><!--/.thumbnail-img-overlay-->
-
-										</div><!--/.thumbnail-img-->
-
-										<div class="caption">
-											<div class="blog-txt">
-
-												<p>
-													walletnxt.com 发布了关于未来系代币的移动端钱包，所有未来系代币均可存于该钱包。
-													钱包优秀的交互设计吸引了一大批用户。Nxt Wallet 将基于 Hebe token 开发聊天等拓展
-													功能。
-												</p>
-											</div><!--/.blog-txt-->
-										</div><!--/.caption-->
-									</div><!--/.thumbnail-->
-								</div>
-							</a>
-							<a   target="_blank" href="https://forum.walletnxt.com/">
-								<div class="col-sm-4 col-md-4">
-									<div class="thumbnail">
-										<h2>nxt 中国社区</h2>
-										<div class="thumbnail-img">
-											<img src="assets/images/cooper/hehe-nxt.png" alt="blog-img">
-											<div class="thumbnail-img-overlay"></div><!--/.thumbnail-img-overlay-->
-
-										</div><!--/.thumbnail-img-->
-
-										<div class="caption">
-											<div class="blog-txt">
-
-												<p>
-													“Nxt 中国社区”一直是未来系代币的坚定簇拥者，社区论坛将成为社区成员发表言论的
-													聚集地。论坛将基于 Hebe Token 建立其激励机制。
-												</p>
-											</div><!--/.blog-txt-->
-										</div><!--/.caption-->
-									</div><!--/.thumbnail-->
-								</div>
-							</a>
-							<a   target="_blank" href="http://www.bee-ji.com/">
-								<div class="col-sm-4 col-md-4">
-									<div class="thumbnail">
-										<h2>逗比拯救世界</h2>
-										<div class="thumbnail-img">
-											<img src="assets/images/cooper/dou.png" alt="blog-img">
-											<div class="thumbnail-img-overlay"></div><!--/.thumbnail-img-overlay-->
-
-										</div><!--/.thumbnail-img-->
-
-										<div class="caption">
-											<div class="blog-txt">
-
-												<p>
-													逗比拯救世界”是一款非常好用的表情包搜索引擎，可以方便快速的找到想要的表情包。
-													其将基于 Hebe Token 建立自身激励体系。
-												</p>
-											</div><!--/.blog-txt-->
-										</div><!--/.caption-->
-									</div><!--/.thumbnail-->
-								</div>
-							</a>
-							<a   target="_blank" href="https://www.chainai.io/">
-								<div class="col-sm-4 col-md-4">
-									<div class="thumbnail">
-										<h2>链 AI</h2>
-										<div class="thumbnail-img">
-											<img src="assets/images/cooper/AI.jpg" alt="blog-img">
-											<div class="thumbnail-img-overlay"></div><!--/.thumbnail-img-overlay-->
-
-										</div><!--/.thumbnail-img-->
-
-										<div class="caption">
-											<div class="blog-txt">
-
-												<p>
-													“链 AI”是国内评级生态的早期践行者，同时也是“中立评级”的一贯秉持者。链 AI 较
-													早地将大数据、机器学习等方式结合进其评级引擎（如下图所示），“钟馗评级”在业内
-													享有良好声誉
-												</p>
-											</div><!--/.blog-txt-->
-										</div><!--/.caption-->
-									</div><!--/.thumbnail-->
-								</div>
-							</a>
-
-						</div><!--/.row-->
-
-					</div><!--/.blog-content-->
-				</div><!--/.blog-details-->
-			</div><!--/.container-->
-
-		</section><!--/.blog-->
-		<!--blog end-->
-		<!--subscribe start-->
-		<section id="subs" class="subscribe">
-			<div class="container">
-				<div class="subscribe-title text-center">
-					<h2>
-						加入Slack，与我们一起发展Hebe
-					</h2>
-				</div>
-				<div class="row">
-					<div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
-						<div class="custom-input-group" style="text-align: center">
-							<a href="https://join.slack.com/t/hebeblock/shared_invite/enQtMzk5NzM1OTk4MzA3LWNlZjgxOTUzYmZiZmVmMDQ3MGZlMTA5Y2I3NjY2NjAyYWY5YWRhZDdhMGI3MmRmN2FjMmQxYzg1MTFiMGMzOGE" target="_blank">
-								<button style="float: inherit" class="appsLand-btn subscribe-btn">加入Slack</button>
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-
-		</section>
-		<!--subscribe end-->
-
-		<!-- footer-copyright start -->
-		<footer id="contacts"  class="footer-copyright">
-			<div class="container">
-				<div class="footer-content">
-					<div class="row">
-						<div class="col-sm-3">
-							<div class="single-footer-item">
-								<div class="footer-logo">
-									<a href="index.html">
-										Hebe<span>Block</span>
-									</a>
-									<p>
-										best hebe block
-									</p>
-								</div>
-							</div><!--/.single-footer-item-->
-						</div><!--/.col-->
-
-						<div class="col-sm-3">
-							<div class="single-footer-item">
-								<h2>链接</h2>
-								<div class="single-footer-txt">
-									<p><a href="#home">主页</a></p>
-									<p><a href="#blog">功能</a></p>
-									<p ><a href="http://bbs.hebeblock.com/" target="_blank" >论坛</a></p>
-									<p ><a href="http://block.hebeblock.com/#/" target="_blank" >区块浏览器</a></p>
-									<p><a href="#team">团队</a></p>
-									<p><a href="#subs">加入我们</a></p>
-									<p><a href="#contacts">联系我们</a></p>
-								</div><!--/.single-footer-txt-->
-							</div><!--/.single-footer-item-->
-
-						</div><!--/.col-->
-
-						<div class="col-sm-3">
-							<div class="single-footer-item">
-								<h2>友情链接</h2>
-								<div class="single-footer-txt">
-									<p><a target="_blank" href="http://walletnxt.com/">Nxt钱包</a></p>
-									<p><a target="_blank" href="http://forum.walletnxt.com/">Nxt论坛</a></p>
-								</div><!--/.single-footer-txt-->
-							</div><!--/.single-footer-item-->
-
-						</div>
-
-						<div class="col-sm-3">
-							<div class="single-footer-item text-center">
-								<h2 class="text-left">contacts</h2>
-								<div class="single-footer-txt text-left">
-									<p class="foot-email"><a href="mailto:hebeblock@gmail.com">hebeblock@gmail.com</a></p>
-								</div><!--/.single-footer-txt-->
-							</div><!--/.single-footer-item-->
-						</div><!--/.col-->
-
-					</div><!--/.row-->
-
-				</div><!--/.footer-content-->
-				<hr>
-				<div class="foot-icons ">
-					<ul class="footer-social-links list-inline list-unstyled">
-		                <li><a href="https://join.slack.com/t/hebeblock/shared_invite/enQtMzk5NzM1OTk4MzA3LWNlZjgxOTUzYmZiZmVmMDQ3MGZlMTA5Y2I3NjY2NjAyYWY5YWRhZDdhMGI3MmRmN2FjMmQxYzg1MTFiMGMzOGE" target="_blank" class="foot-icon-bg-1"><i class="fa fa-slack"></i></a></li>
-		                <!--<li><a href="#" target="_blank" class="foot-icon-bg-2"><i class="fa fa-twitter"></i></a></li>-->
-		                <!--<li><a href="#" target="_blank" class="foot-icon-bg-3"><i class="fa fa-instagram"></i></a></li>-->
-		        	</ul>
-		        	<p>&copy; 2018 HebeBlock All Right Reserved</p>
-
-		        </div><!--/.foot-icons-->
-				<div id="scroll-Top">
-					<i class="fa fa-angle-double-up return-to-top" id="scroll-top" data-toggle="tooltip" data-placement="top" title="" data-original-title="Back to Top" aria-hidden="true"></i>
-				</div><!--/.scroll-Top-->
-			</div><!-- /.container-->
-
-		</footer><!-- /.footer-copyright-->
-		<!-- footer-copyright end -->
-
-
-
-
-		<script src="assets/js/jquery.min.js"></script>
-		<!-- Include all compiled plugins (below), or include individual files as needed -->
-		<script src="assets/js/prefixfree.min.js"></script>
-		<script src="assets/js/stopExecutionOnTimeout.js"></script>
-
-		<!--modernizr.min.js-->
-
-		<!--bootstrap.min.js-->
-		<script  src="assets/js/bootstrap.min.js"></script>
-
-		<!-- bootsnav js -->
-		<script src="assets/js/bootsnav.js"></script>
-
-		<!-- jquery.filterizr.min.js -->
-		<script src="assets/js/jquery.filterizr.min.js"></script>
-
-		<script  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-
-		<!--jquery-ui.min.js-->
-        <script src="assets/js/jquery-ui.min.js"></script>
-
-        <!-- counter js -->
-		<script src="assets/js/jquery.counterup.min.js"></script>
-		<script src="assets/js/waypoints.min.js"></script>
-
-		<!--owl.carousel.js-->
-        <script  src="assets/js/owl.carousel.min.js"></script>
-
-        <!-- jquery.sticky.js -->
-		<script src="assets/js/jquery.sticky.js"></script>
-
-        <!--datepicker.js-->
-        <script  src="assets/js/datepicker.js"></script>
-
-		<!--Custom JS-->
-		<script src="assets/js/custom.js?date=20180523"></script>
-
-		<script src="https://jic.talkingdata.com/app/h5/v1?appid=6E6131607DD4415FAD006A19A6AF4AA8&vn=HebeBlock&vc=1.0"></script>
-		<script>
-			$('#save').click(function () {
-                $.ajax({
-                    type: "get",
-                    url: "http://www.walletnxt.com:8080/faucet?addr="+$("#addr").val(),
-                    success: function(req){
-                       alert(req);
-                        $('#myModal').modal('toggle')
-                    }
-                });
-
-            })
-            $(document).ready(function () {
-                var stars = 800;
-                var $stars = $('.stars');
-                var r = 800;
-                for (var i = 0; i < stars; i++) {
-                    if (window.CP.shouldStopExecution(1)) {
-                        break;
-                    }
-                    var $star = $('<div/>').addClass('star');
-                    $stars.append($star);
-                }
-                window.CP.exitedLoop(1);
-                $('.star').each(function () {
-                    var cur = $(this);
-                    var s = 0.2 + Math.random() * 1;
-                    var curR = r + Math.random() * 300;
-                    cur.css({
-                        transformOrigin: '0 0 ' + curR + 'px',
-                        transform: ' translate3d(0,0,-' + curR + 'px) rotateY(' + Math.random() * 360 + 'deg) rotateX(' + Math.random() * -50 + 'deg) scale(' + s + ',' + s + ')'
-                    });
-                });
-            });
-
-		</script>
-	</body>
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>HebeBlock Proof-of-Stake Focusing on the Long-tail Market of Blockchain——Building a Multi-Dimensional Token
+        Economic Ecological Community</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="HebeBlock Focusing on the Long-tail Market of Blockchain——Building a Multi-Dimensional Token Economic Ecological Community" />
+    <meta name="keywords"
+        content="HebeBlock, Hebe, Pos, Blockchain, decentralized asset exchange, alias, account control, decentralized data storage system, decentralized voting system, decentralized anonymous privacy" />
+    <meta name="author" content="Hebeblock@Gmail.Com" />
+    <meta property="og:title" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:description" content="" />
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:image" content="" />
+    <meta name="twitter:url" content="" />
+    <meta name="twitter:card" content="" />
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,400italic,700' rel='stylesheet'
+        type='text/css'>
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/simple-line-icons.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/jquery.fallingsnow.css">
+    <link rel="stylesheet" href="css/myfallingsnow.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" id="theme-switch" href="css/style.css">
+
+
+    <style>
+        #colour-variations {
+            padding: 10px;
+            -webkit-transition: 0.5s;
+            -o-transition: 0.5s;
+            transition: 0.5s;
+            width: 140px;
+            position: fixed;
+            left: 0;
+            top: 100px;
+            z-index: 999999;
+            background: #fff;
+            /*border-radius: 4px;*/
+            border-top-right-radius: 4px;
+            border-bottom-right-radius: 4px;
+            -webkit-box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
+            -moz-box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
+            -ms-box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
+            box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
+        }
+
+        #colour-variations.sleep {
+            margin-left: -140px;
+        }
+
+        #colour-variations h3 {
+            text-align: center;
+            ;
+            font-size: 11px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #777;
+            margin: 0 0 10px 0;
+            padding: 0;
+            ;
+        }
+
+        #colour-variations ul,
+        #colour-variations ul li {
+            padding: 0;
+            margin: 0;
+        }
+
+        #colour-variations li {
+            list-style: none;
+            display: block;
+            margin-bottom: 5px !important;
+            float: left;
+            width: 100%;
+        }
+
+        #colour-variations li a {
+            width: 100%;
+            position: relative;
+            display: block;
+            overflow: hidden;
+            -webkit-border-radius: 4px;
+            -moz-border-radius: 4px;
+            -ms-border-radius: 4px;
+            border-radius: 4px;
+            -webkit-transition: 0.4s;
+            -o-transition: 0.4s;
+            transition: 0.4s;
+        }
+
+        #colour-variations li a:hover {
+            opacity: .9;
+        }
+
+        #colour-variations li a>span {
+            width: 33.33%;
+            height: 20px;
+            float: left;
+            display: -moz-inline-stack;
+            display: inline-block;
+            zoom: 1;
+            *display: inline;
+        }
+
+
+        .option-toggle {
+            position: absolute;
+            right: 0;
+            top: 0;
+            margin-top: 5px;
+            margin-right: -30px;
+            width: 30px;
+            height: 30px;
+            background: #f64662;
+            text-align: center;
+            border-top-right-radius: 4px;
+            border-bottom-right-radius: 4px;
+            color: #fff;
+            cursor: pointer;
+            -webkit-box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
+            -moz-box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
+            -ms-box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
+            box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
+        }
+
+        .option-toggle i {
+            top: 2px;
+            position: relative;
+        }
+
+        .option-toggle:hover,
+        .option-toggle:focus,
+        .option-toggle:active {
+            color: #fff;
+            text-decoration: none;
+            outline: none;
+        }
+    </style>
+
+
+    <!-- Modernizr JS -->
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <!-- FOR IE9 below -->
+    <!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+    <header role="banner" id="fh5co-header">
+        <div class="container">
+            <!-- <div class="row"> -->
+            <nav class="navbar navbar-default">
+                <div class="navbar-header">
+                    <!-- Mobile Toggle Menu Button -->
+                    <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse"
+                        data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+                    <a class="navbar-brand" href="index.html">
+                        <img class="logo1" src="./images/logo.png" style="float: left;    margin-top: -10px;">
+                        <img class="logo2" src="./images/logo1.png" style="float: left;    margin-top: -10px;">
+                        HebeBlock
+                    </a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="#" data-nav-section="home"><span>Home</span></a></li>
+                        <li><a href="#" data-nav-section="services"><span>Features</span></a></li>
+                        <li><a href="#" data-nav-section="about"><span>Team</span></a></li>
+                        <li><a href="https://bbs.hebeblock.com/" target="_blank"><span>Forum</span></a></li>
+                        <li><a href="https://blog.hebeblock.com/" target="_blank"><span>Blog</span></a></li>
+                        <li><a href="https://d.hebeblock.com/" target="_blank"><span>Mobile Wallet</span></a></li>
+                        <li><a href="https://block.hebeblock.com/" target="_blank"><span>Block browser</span></a></li>
+                        <li><a href="#" data-nav-section="contact"><span>Contact</span></a></li>
+                        <li><a href="https://hebeblock.com/zh.html" target="_blank"><span>中文</span></a></li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- </div> -->
+        </div>
+    </header>
+
+    <section id="fh5co-home" data-section="home" style="background-image: url(images/full_image_2.jpg);"
+        data-stellar-background-ratio="0.5">
+        <div class="gradient"></div>
+        <div class="container">
+            <div id="snow"></div>
+            <div class="text-wrap">
+                <div class="text-inner">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2">
+                            <h1 class="to-animate">Proof-of-Stake
+                            </h1>
+                            <h2 class="to-animate">Core functions: Asset system，Currency system，Data cloud，Voting
+                                system，Account system，Coin Shuffle，Message，Market，Alias，Plugin。
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slant"></div>
+    </section>
+
+    <section id="fh5co-intro">
+        <div class="container">
+            <div class="row row-bottom-padded-lg">
+                <div class="fh5co-block to-animate" style="background-image: url(images/img_7.jpg);">
+                    <div class="overlay-darker"></div>
+                    <div class="overlay"></div>
+                    <div class="fh5co-text">
+                        <i class="fh5co-intro-icon icon-bulb"></i>
+                        <h2>White paper</h2>
+                        <p>This white paper, along with any other documents related to this white paper, covers the
+                            expected development and use of the HebeBlock network. They are for reference only and are
+                            subject to change.</p>
+                        <p><a href="https://github.com/HebePlatform/Hebe-Web/blob/master/WHITEPAPER.md" target="_blank"
+                                class="btn btn-primary">Click to view</a></p>
+                    </div>
+                </div>
+                <div class="fh5co-block to-animate" style="background-image: url(images/img_8.jpg);">
+                    <div class="overlay-darker"></div>
+                    <div class="overlay"></div>
+                    <div class="fh5co-text">
+                        <i class="fh5co-intro-icon icon-wallet"></i>
+                        <h2>Mobile wallet</h2>
+                        <p>HebeWallet is a decentralized multi-chain wallet developed by the HebeBlock team that
+                            supports multi-currency and HebeBlock blockchain functions. supports Hebe, Btc, Eth, Etc,
+                            Bch, Waves, NXT, Ardor, Ignis, Apl, Rya, Actn</p>
+                        <p><a href="https://d.hebeblock.com" target="_blank" class="btn btn-primary">Click to view</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="fh5co-block to-animate" style="background-image: url(images/img_10.jpg);">
+                    <div class="overlay-darker"></div>
+                    <div class="overlay"></div>
+                    <div class="fh5co-text">
+                        <i class="fh5co-intro-icon icon-exchange"></i>
+                        <h2>Exchange Hebe</h2>
+                        <p>From February 2019 to the end of April 2019, we offer redemption services, BTC, Eth, Etc,
+                            NXT, Ardor,HebeBlock goes online in early May，If you are interested in HebeBlock, please
+                            redeem as soon as possible</p>
+                        <p><a target="_blank" href="https://nxtforum.org/nxt-projects/hebeblock"
+                                class="btn btn-primary">Click
+                                to view</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="fh5co-services" data-section="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 section-heading text-left">
+                    <h2 class=" left-border to-animate">Core function</h2>
+                    <div class="row">
+                        <div class="col-md-8 subtext to-animate">
+                            <h3>HebeBlock is a Proof-of-Stake entitlement blockchain based on NXT Java. The built-in
+                                core functions are as follows:：</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-6 fh5co-service to-animate">
+                    <i class="icon to-animate-2 icon-balance-scale"></i>
+                    <h3>Asset system</h3>
+                    <p>The HebeBlock asset system allows users to create their own proprietary asset projects and
+                        conduct secure, fast peer-to-peer transactions or asset project dividends on the system's
+                        built-in HebeBlock asset exchange。</p>
+                </div>
+                <div class="col-md-6 col-sm-6 fh5co-service to-animate">
+                    <i class="icon to-animate-2 icon-money"></i>
+                    <h3>Currency System</h3>
+                    <p>The HebeBlock currency system allows users to create and trade their custom currency (created Pow
+                        currency, location currency, controllable currency, etc.) and can also use HebeToken to keep
+                        their stable value。</p>
+                </div>
+                <div class="clearfix visible-sm-block"></div>
+
+                <div class="col-md-6 col-sm-6 fh5co-service to-animate">
+                    <i class="icon to-animate-2 icon-layers2"></i>
+                    <h3>Data cloud</h3>
+                    <p>The HebeBlock data cloud is a decentralized data storage system that provides tamper-proof
+                        timestamps. This allows legal records (such as contracts) to be embedded in the blockchain and
+                        gives absolute accuracy to their creation time.</p>
+                </div>
+                <div class="col-md-6 col-sm-6 fh5co-service to-animate">
+                    <i class="icon to-animate-2 icon-pie-chart"></i>
+                    <h3>Voting system</h3>
+                    <p>Decentralized communities or organizations need a means of reaching consensus, and the HebeBlock
+                        voting system allows a group of users/assets/currency to vote or trade (approve or reject),
+                        depending on project characteristics。</p>
+                </div>
+                <div class="clearfix visible-sm-block"></div>
+
+                <div class="col-md-6 col-sm-6 fh5co-service to-animate">
+                    <i class="icon to-animate-2 icon-shield"></i>
+                    <h3>Account system</h3>
+                    <p>HebeBlock accounts can secure digital assets through enhanced multi-signature methods. Account
+                        holders can set accounts to be restricted to the above voting system, which means users can
+                        restrict access to accounts from certain unknown sources or prohibit multiple parties.
+                        Transaction in the case of approval。</p>
+                </div>
+                <div class="col-md-6 col-sm-6 fh5co-service to-animate">
+                    <i class="icon to-animate-2 icon-circle-thin"></i>
+                    <h3>Coin Shuffle</h3>
+                    <p>HebeBlock Coin Shuffle is a decentralized anonymous privacy service that allows users to quickly
+                        and efficiently mix with other users' funds to create a random mapping between existing user
+                        accounts and new accounts after the currency. Implement a completely anonymous transaction。</p>
+                </div>
+                <div class="clearfix visible-sm-block"></div>
+
+                <div class="col-md-6 col-sm-6 fh5co-service to-animate">
+                    <i class="icon to-animate-2 icon-envelope"></i>
+                    <h3>Message</h3>
+                    <p>HebeBlock has a built-in messaging feature that adds message encryption/permanent messages during
+                        the transaction。</p>
+                </div>
+                <div class="col-md-6 col-sm-6 fh5co-service to-animate">
+                    <i class="icon to-animate-2 icon-shopping-cart"></i>
+                    <h3>Market</h3>
+                    <p>HebeBlock allows you to sell merchandise on the blockchain without having to rely on external
+                        market sites to conduct business.</p>
+                </div>
+                <div class="clearfix visible-sm-block"></div>
+
+                <div class="col-md-6 col-sm-6 fh5co-service to-animate">
+                    <i class="icon to-animate-2 icon-bookmark"></i>
+                    <h3>Alias</h3>
+                    <p>HebeBlock alias, which allows the user to replace the HebeBlock address with a phrase and also
+                        supports the sale of aliases.。</p>
+                </div>
+                <div class="col-md-6 col-sm-6 fh5co-service to-animate">
+                    <i class="icon to-animate-2 icon-plug"></i>
+                    <h3>Plugin</h3>
+                    <p>HebeBlock allows third-party software developers to add functionality to the HebeBlock client
+                        interface。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="fh5co-about" data-section="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 section-heading text-center">
+                    <h2 class="to-animate">Team</h2>
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2 subtext to-animate">
+                            <h3></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="fh5co-person text-center to-animate">
+                        <figure><img src="images/zhang.jpg" alt="Image"></figure>
+                        <h3>Zhang</h3>
+                        <span class="fh5co-position">Development</span>
+                        <p>Founder of HebeWallet / Walletnxt, with extensive experience in blockchain/wallet
+                            development, good at JavaScript, Java and development of NodeJS,has participated in Nxt,
+                            Ardor customer development, Cosmos JsSdk development</p>
+                        <ul class="social social-circle">
+                            <li><a target="_blank" href="https://twitter.com/zhanghuasheng95"><i
+                                        class="icon-twitter"></i></a></li>
+                            <li><a target="_blank" href="https://github.com/317482454"><i class="icon-github"></i></a>
+                            </li>
+                            <li><a target="_blank" href="https://blog.csdn.net/qq_26744901"><i
+                                        class="icon-dribbble"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="fh5co-person text-center to-animate">
+                        <figure><img src="images/jun.jpg" alt="Image"></figure>
+                        <h3>Tvrosina</h3>
+                        <span class="fh5co-position">SYSADMIN / IT EXPERT </span>
+                        <p>Fido Junes Computer technology professional, proficient in the layout of embedded device
+                            nodes, and network maintenance of the Linux operating system. He led the team to optimize
+                            the network communication of China Telecom's East China region. HEBE community, founder of
+                            the fund, early BTC, ETH investor. A well-known blockchain media columnist in China,
+                            focusing on big data and related technology research and practice.</p>
+                        <ul class="social social-circle">
+                            <li><a target="_blank" href="https://twitter.com/fj27074122"><i
+                                        class="icon-twitter"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="fh5co-person text-center to-animate">
+                        <figure><img src="images/xun.jpg" alt="Image"></figure>
+                        <h3>Xun</h3>
+                        <span class="fh5co-position">Operational promotion</span>
+                        <p>HEBE fanatics, blockchain believers, blockchain practitioners, media columnists, marketing
+                            experience in all areas, in-depth research and marketing over a thousand hours, has a wealth
+                            of experience in project operations，Previously, he was responsible for the operation of a
+                            famous blockchain media operation in China。</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="fh5co-counters" style="background-image: url(images/full_image_1.jpg);"
+        data-stellar-background-ratio="0.5">
+        <div class="fh5co-overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 section-heading text-center to-animate">
+                    <h2>Project data</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="fh5co-counter to-animate">
+                        <i class="fh5co-counter-icon icon-briefcase to-animate-2"></i>
+                        <span class="fh5co-counter-number js-counter" data-from="0" data-to="12" data-speed="5000"
+                            data-refresh-interval="50">12</span>
+                        <span class="fh5co-counter-label">Exchange users</span>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="fh5co-counter to-animate">
+                        <i class="fh5co-counter-icon icon-code to-animate-2"></i>
+                        <span class="fh5co-counter-number js-counter" data-from="0" data-to="581393" data-speed="5000"
+                            data-refresh-interval="50">581393</span>
+                        <span class="fh5co-counter-label">Estimated quantity</span>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="fh5co-counter to-animate">
+                        <i class="fh5co-counter-icon icon-wallet to-animate-2"></i>
+                        <span class="fh5co-counter-number js-counter" data-from="0" data-to="181" data-speed="5000"
+                            data-refresh-interval="50">181</span>
+                        <span class="fh5co-counter-label">Hebe Wallet user</span>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="fh5co-counter to-animate">
+                        <i class="fh5co-counter-icon icon-people to-animate-2"></i>
+                        <span class="fh5co-counter-number js-counter" data-from="0" data-to="109" data-speed="5000"
+                            data-refresh-interval="50">109</span>
+                        <span class="fh5co-counter-label">HebeBlock user</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="fh5co-contact" data-section="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 section-heading text-center">
+                    <h2 class="to-animate">Contact</h2>
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2 subtext to-animate">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-bottom-padded-md">
+                <div class="col-md-12 to-animate">
+                    <ul class="fh5co-contact-info">
+                        <li><a href="mailto:hebeblock@gmail.com" target="_blank"><i
+                                    class="icon-envelope"></i>hebeblock@gmail.com</li>
+                        <li><a href="https://join.slack.com/t/hebeblock/shared_invite/enQtMzk5NzM1OTk4MzA3LWNlZjgxOTUzYmZiZmVmMDQ3MGZlMTA5Y2I3NjY2NjAyYWY5YWRhZDdhMGI3MmRmN2FjMmQxYzg1MTFiMGMzOGE"
+                                target="_blank"><i class="icon-slack"></i>Slack</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </section>
+
+
+    <footer id="footer" role="contentinfo">
+        <a href="#" class="gotop js-gotop"><i class="icon-arrow-up2"></i></a>
+        <div class="container">
+            <div class="">
+                <div class="col-md-12 text-center">
+                    <p>© 2019 HebeBlock All Right Reserved</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <ul class="social social-circle">
+                        <li><a href="https://twitter.com/BlockHebe" target="_blank"><i class="icon-twitter"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- For demo purposes Only ( You may delete this anytime :-) -->
+
+    <!-- End demo purposes only -->
+
+
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+    <!-- jQuery Easing -->
+    <script src="js/jquery.easing.1.3.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Waypoints -->
+    <script src="js/jquery.waypoints.min.js"></script>
+    <!-- Stellar Parallax -->
+    <script src="js/jquery.stellar.min.js"></script>
+    <!-- Counter -->
+    <script src="js/jquery.countTo.js"></script>
+    <!-- Magnific Popup -->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/magnific-popup-options.js"></script>
+    <script src="js/jquery.fallingsnow.min.js"></script>
+
+
+
+
+    <!-- Main JS (Do not remove) -->
+    <script src="js/main.js?data=2019-4-23"></script>
+    <script
+        src="https://jic.talkingdata.com/app/h5/v1?appid=6E6131607DD4415FAD006A19A6AF4AA8&vn=HebeBlock&vc=1.0"></script>
+</body>
 
 </html>
