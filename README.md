@@ -9,7 +9,7 @@ note
 This white paper and any other documents related to this white paper relate to the intended development and use of the RangeCoin network. They are for reference only and are subject to change.
 
 This white paper describes a project under development
-This white paper contains forward-looking statements based on RangeCoin's beliefs and certain assumptions and information provided by HebeBlock.
+This white paper contains forward-looking statements based on RangeCoin's beliefs and certain assumptions and information provided by RangeCoin.
 
 The RangeCoin network envisaged in this white paper is under development and is constantly being updated, including but not limited to key governance and technical features. RangeCoin involve and involve the development and use of experimental platforms (software) and technologies that may not achieve or achieve the goals set out in this white paper.
 
@@ -20,29 +20,29 @@ RangeCoin is not intended to represent securities or any other regulated product
 
 This document does not constitute an offer or solicitation for securities or any other regulated product, nor does it constitute a promotion, invitation or solicitation for investment purposes. The terms of purchase are not a document or any form of prospectus intended to provide financial services.
 
-Hebe Tokens do not represent the rights of equity, shares, units, royalties or capital, profits, returns or income of the platform or software or HebeBlock or any other company or intellectual property related to the platform or any other public or private. Businesses, companies, foundations or other entities in any jurisdiction.
+RangeCoin do not represent the rights of equity, shares, units, royalties or capital, profits, returns or income of the platform or software or RangeCoin or any other company or intellectual property related to the platform or any other public or private. Businesses, companies, foundations or other entities in any jurisdiction.
 
 This white paper is not a recommendation
-This white paper does not constitute a recommendation to purchase any HEBE tokens. Do not rely on any contract or purchase decision.
+This white paper does not constitute a recommendation to purchase any RangeCoins. Do not rely on any contract or purchase decision.
 
 Risk warning
-Buying HEBE tokens and participating in the HEBE network will bring great risks.
+Buying RangeCoin and participating in the RangeCoin network will bring great risks.
 
-Before purchasing HEBE tokens, you should carefully evaluate and consider the risks, including those listed in https://web.rangecoin.xyz/ and any other documents.
+Before purchasing RangeCoin, you should carefully evaluate and consider the risks, including those listed in https://web.rangecoin.xyz/ and any other documents.
 
 RangeCoin perspective only
-The views and opinions expressed in this white paper are the views and opinions of HebeBlock and do not necessarily reflect the official policies or positions of any government, quasi-government, authority or public agency, including but not limited to any regulatory agency in any jurisdiction. Any jurisdiction.
+The views and opinions expressed in this white paper are the views and opinions of RangeCoin and do not necessarily reflect the official policies or positions of any government, quasi-government, authority or public agency, including but not limited to any regulatory agency in any jurisdiction. Any jurisdiction.
 
 The information contained in this white paper is based on sources believed to be reliable by RangeCoin, but its accuracy or completeness cannot be guaranteed.
 
 Chinese is the authorized language for this white paper
-This white paper and related materials are issued in English only. Any translations are for reference only and have not been certified by HebeBlock or anyone else. The accuracy and completeness of any translation is not guaranteed. If there is any inconsistency between the translated version and the Chinese version of this white paper, the Chinese version shall prevail.
+This white paper and related materials are issued in English only. Any translations are for reference only and have not been certified by RangeCoin or anyone else. The accuracy and completeness of any translation is not guaranteed. If there is any inconsistency between the translated version and the Chinese version of this white paper, the Chinese version shall prevail.
 
 No third party recognized affiliation
 References to specific companies and platforms in this white paper are for illustrative purposes only. The use of any company and / or platform name and trademark does not imply any association or endorsement with any party.
 
 You must get all the necessary professional advice
-Before deciding whether to buy HEBE tokens or otherwise participate in the HEBE network, you must consult with a lawyer, accountant and / or tax professional, and any other professional adviser.
+Before deciding whether to buy RangeCoin or otherwise participate in the RangeCoin network, you must consult with a lawyer, accountant and / or tax professional, and any other professional adviser.
 
 RANGE overview
 The RANGE network is named because we want to make new range in the crypto world
