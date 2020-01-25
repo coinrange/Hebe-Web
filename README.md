@@ -1,22 +1,22 @@
-# HebeBlock
+# RangeCoin
 Focusing on the long-chain market of the blockchain ──constructing a multidimensional Token economic ecological community
 
-HebeBlock hebeblock@gmail.com
+rangecoin coinrange@gmail.com
 
-Note: If you can read this on GitHub, we are still actively developing this document. Please check for updates regularly!
+Note: must support Range because this change your life any the crypto world!
 
 note
-This white paper and any other documents related to this white paper relate to the intended development and use of the HebeBlock network. They are for reference only and are subject to change.
+This white paper and any other documents related to this white paper relate to the intended development and use of the RangeCoin network. They are for reference only and are subject to change.
 
 This white paper describes a project under development
-This white paper contains forward-looking statements based on HebeBlock's beliefs and certain assumptions and information provided by HebeBlock.
+This white paper contains forward-looking statements based on RangeCoin's beliefs and certain assumptions and information provided by HebeBlock.
 
-The HebeBlock network envisaged in this white paper is under development and is constantly being updated, including but not limited to key governance and technical features. HebeBlock tokens involve and involve the development and use of experimental platforms (software) and technologies that may not achieve or achieve the goals set out in this white paper.
+The RangeCoin network envisaged in this white paper is under development and is constantly being updated, including but not limited to key governance and technical features. RangeCoin involve and involve the development and use of experimental platforms (software) and technologies that may not achieve or achieve the goals set out in this white paper.
 
-If the HebeBlock network is completed, it may be very different from the network specified in this white paper. We make no representations or warranties with regard to the achievements or reasonableness of any plans, future forecasts or prospects, and nothing in this document is or should not be taken as a promise or statement of the future.
+If the RangeCoin network is completed, it may be very different from the network specified in this white paper. We make no representations or warranties with regard to the achievements or reasonableness of any plans, future forecasts or prospects, and nothing in this document is or should not be taken as a promise or statement of the future.
 
 No regulated products available
-Hebe Token is not intended to represent securities or any other regulated product in any jurisdiction.
+RangeCoin is not intended to represent securities or any other regulated product in any jurisdiction.
 
 This document does not constitute an offer or solicitation for securities or any other regulated product, nor does it constitute a promotion, invitation or solicitation for investment purposes. The terms of purchase are not a document or any form of prospectus intended to provide financial services.
 
@@ -28,12 +28,12 @@ This white paper does not constitute a recommendation to purchase any HEBE token
 Risk warning
 Buying HEBE tokens and participating in the HEBE network will bring great risks.
 
-Before purchasing HEBE tokens, you should carefully evaluate and consider the risks, including those listed in https://hebeblock.com/ and any other documents.
+Before purchasing HEBE tokens, you should carefully evaluate and consider the risks, including those listed in https://web.rangecoin.xyz/ and any other documents.
 
-HebeBlock perspective only
+RangeCoin perspective only
 The views and opinions expressed in this white paper are the views and opinions of HebeBlock and do not necessarily reflect the official policies or positions of any government, quasi-government, authority or public agency, including but not limited to any regulatory agency in any jurisdiction. Any jurisdiction.
 
-The information contained in this white paper is based on sources believed to be reliable by HebeBlock, but its accuracy or completeness cannot be guaranteed.
+The information contained in this white paper is based on sources believed to be reliable by RangeCoin, but its accuracy or completeness cannot be guaranteed.
 
 Chinese is the authorized language for this white paper
 This white paper and related materials are issued in English only. Any translations are for reference only and have not been certified by HebeBlock or anyone else. The accuracy and completeness of any translation is not guaranteed. If there is any inconsistency between the translated version and the Chinese version of this white paper, the Chinese version shall prevail.
@@ -44,28 +44,28 @@ References to specific companies and platforms in this white paper are for illus
 You must get all the necessary professional advice
 Before deciding whether to buy HEBE tokens or otherwise participate in the HEBE network, you must consult with a lawyer, accountant and / or tax professional, and any other professional adviser.
 
-HEBE overview
-The HEBE network is named after the Greek goddess Hebe (Greek: Ἥβη; English: Hebe)
+RANGE overview
+The RANGE network is named because we want to make new range in the crypto world
 
-The total number of HEBE coins is 1 billion;
+The total number of RANGE coins is around 23 million;
 
-All currencies are generated directly in the genesis block, and the account number that generated the genesis block is HEBE-MRCC-2YLS-8M54-3CMAJ. The balance of this account is also set to negative one billion. The negative monetary value in the genesis account also has several interesting effects:
+All currencies are generated directly in the genesis block, and the account number that generated the genesis block is RANGE-QXCN-7NR9-Q5RT-5M7TL. The balance of this account is also set to negative 23 million. The negative monetary value in the genesis account also has several interesting effects:
 
 The Genesis account cannot initiate any transactions and cannot pay transaction fees, because the account balance is negative, so the password of this account is also public (note that the last one is also part of the password): It was a bright cold day in April, and the clocks were striking thirteen.
 
-Any HEBE currency sent to this account will be destroyed, because the negative balance of this account will make the transferred currency and the balance offset each other;
+Any RANGE currency sent to this account will be destroyed, because the negative balance of this account will make the transferred currency and the balance offset each other;
 
-The HEBE assets transferred to this account will also be destroyed;
+The RANGE assets transferred to this account will also be destroyed;
 
-The relationship between HEBE and NXT
-The HEBE network is based on the NXT blockchain and currently uses the NXT 1.11.5 GPL version
+The relationship between RANGE and NXT
+The RANGE network is based on the NXT blockchain and currently uses the NXT 1.11.13 GPL version
 
-Why not adopt the JPL agreement, which was decided by early participants in the HEBE community. You can view the record at https://bbs.hebeblock.com/topic/93
 
-HEBE contributes walletnxt on NXT https://walletnxt.com This is the only NXT decentralized wallet that supports all NXT clone projects. The current number of users is 1100+
+RANGE contributes walletnxt on NXT https://walletnxt.com This is the only NXT decentralized wallet that supports all NXT clone projects. The current number of users is 1100+
 
 100% POS (Proof Of Stake) Proof of Stake
-In HEBE's POS model, security is guaranteed by the holders. The benefits brought by POS will not generate a centralized trend in POW
+In RANGE's POS model, security is guaranteed by the holders. The benefits brought by POS will not generate a centralized trend in POW
+/////////////////
 
 The system built by HEBE regards each coin as a tiny mining machine. The greater the number of coin coins in the account, the greater the chance that it has the opportunity to generate a block. The benefit of creating a block is the transaction costs within the block. Creating a block does not generate new coins. The redistribution of HEBE takes place in the transaction fees for creating blocks.
 
