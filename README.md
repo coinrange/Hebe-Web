@@ -65,9 +65,10 @@ RANGE contributes walletnxt on NXT https://walletnxt.com This is the only NXT de
 
 100% POS (Proof Of Stake) Proof of Stake
 In RANGE's POS model, security is guaranteed by the holders. The benefits brought by POS will not generate a centralized trend in POW
+
 /////////////////
 
-The system built by HEBE regards each coin as a tiny mining machine. The greater the number of coin coins in the account, the greater the chance that it has the opportunity to generate a block. The benefit of creating a block is the transaction costs within the block. Creating a block does not generate new coins. The redistribution of HEBE takes place in the transaction fees for creating blocks.
+The system built by RANGE regards each coin as a tiny mining machine. The greater the number of coin coins in the account, the greater the chance that it has the opportunity to generate a block. The benefit of creating a block is the transaction costs within the block. Creating a block does not generate new coins. The redistribution of HEBE takes place in the transaction fees for creating blocks.
 
 Transparent forging replaces mining.
 
@@ -86,16 +87,16 @@ Due to the low probability of controlling the blockchain by a single account, on
 Network node
 image
 
-A network node refers to any device that contributes transactions and block data on the network; any device running the HEBE service can be regarded as a node;
+A network node refers to any device that contributes transactions and block data on the network; any device running the RANGE service can be regarded as a node;
 
 Network nodes can be divided into two types, hallmarked and ordinary nodes; hallmarked nodes are nodes with an encrypted signature, which is generated using the account's private key. This signature can be decoded to analyze the id and balance of the account bound to this node; nodes with a hallmark signature can be considered as account bound, so this node will be more secure; the balance bound to the node The more credibility is, the higher the credibility may be; an attacker may want to gain trust to conduct an attack through the Hallmark node bound to the account, but the cost of obtaining trust prevents this behavior from happening;
 
-Any node in the HEBE network has the ability to process and broadcast transactions and block data. The block information received from other nodes will be checked for validity; in order to prevent the propagation of invalid data, nodes that generate invalid data will be temporarily blackened for a period of time;
+Any node in the RANGE network has the ability to process and broadcast transactions and block data. The block information received from other nodes will be checked for validity; in order to prevent the propagation of invalid data, nodes that generate invalid data will be temporarily blackened for a period of time;
 
 In order to prevent DDOS attacks, each node's request to receive other nodes is limited to 30 per second;
 
 Block
-Like other electronic currencies, all transaction account information of HEBE is stored in a series of blocks, called the blockchain. This ledger provides a permanent record of transactions and the order in which the transactions took place; in the HEBE network, the blockchain exists in each node, and the unlocked account (submitting the private key) on any node is the first transaction recorded in the account. After the occurrence of the 1440th block, it has the ability to generate blocks. Accounts that meet these conditions also become active accounts.
+Like other electronic currencies, all transaction account information of RANGE is stored in a series of blocks, called the blockchain. This ledger provides a permanent record of transactions and the order in which the transactions took place; in the RANGE network, the blockchain exists in each node, and the unlocked account (submitting the private key) on any node is the first transaction recorded in the account. After the occurrence of the 1440th block, it has the ability to generate blocks. Accounts that meet these conditions also become active accounts.
 
 image
 
@@ -109,7 +110,7 @@ Create the account ID of the block and the public key of the account;
 
 ID and hash value of the previous block, the number of transactions contained in this block
 
-The total number of HEBE coins and fees generated from the transaction;
+The total number of RangeCoins and fees generated from the transaction;
 
 Data for all transactions in the block, including transaction ID
 
@@ -125,7 +126,7 @@ Block generation
 Three key parameters determine which account is eligible for block generation, which account has the right to generate a block, and which block is selected as the final block to avoid conflicts: basic target value, target value and cumulative difficulty value;
 
 Base target
-In order to win the right to forge (generate blocks), the HEBE account does this by generating a hash value that is smaller than the given base target value. This basic target value is very different with the generation of the block. It is derived from the basic target value of the previous block multiplied by the time (in seconds) from the generation of the block to the previous block.
+In order to win the right to forge (generate blocks), the RANGE account does this by generating a hash value that is smaller than the given base target value. This basic target value is very different with the generation of the block. It is derived from the basic target value of the previous block multiplied by the time (in seconds) from the generation of the block to the previous block.
 
 Target value
 Each account will calculate this value based on the effective equity of the account
@@ -145,7 +146,7 @@ Once an account has won the right to generate blocks, it can bind up to 512 tran
 The node receiving the block in the network will verify the payload value of this block, generate an account, and all the signature information of the block. In the case where multiple blocks are generated, the node will select the block with the highest cumulative difficulty value as the final block. Because the block data is shared between the nodes, by checking the difficulty value of the block, the invalid branch will be Will be removed.
 
 Balance lease
-As the effective balance of the account affects the forging ability of the account, it is feasible to lease the forging ability of the account to other accounts, but without losing control of the HEBE coin. Initiating an account control type transaction, the account lessor will temporarily lose the effective forging amount, and the account receiving the rental capacity will increase the corresponding forging capacity value; the receiver will lose these additional forging balances when the lease expires , These balances will be returned to the previous lessor.
+As the effective balance of the account affects the forging ability of the account, it is feasible to lease the forging ability of the account to other accounts, but without losing control of the RangeCoin. Initiating an account control type transaction, the account lessor will temporarily lose the effective forging amount, and the account receiving the rental capacity will increase the corresponding forging capacity value; the receiver will lose these additional forging balances when the lease expires , These balances will be returned to the previous lessor.
 
 An account with a rental balance makes it easier to forge blocks and earn more fees. But these costs are not evenly distributed to each lessor. The system allows the existence of forged pools that are not trusted by the system, and these forged pools can pay back to the participants.
 
@@ -169,7 +170,7 @@ Reed Solomon coded this visible account number and added the prefix HEBE- to fin
 When an account is first accessed through a password, its public key is still not secure. When the first transaction occurs, the 256-bit public key information will be stored in the block, which also ensures the security of the account. The address space 2256 of the public key is larger than the address space 264 of the account number, so there is no one-to-one relationship between the account number and the password, and conflicts may also occur. These conflicts are found and resolved in the following way: An account logged in with the specified password has been locked by a 256-bit public key, and no other public / private key will be allowed to log in to this account.
 
 Account balance property
-For each HEBE account, there are many different balance assets. Each category has a different purpose, and some are also verified during transaction confirmation and processing.
+For each RANGE account, there are many different balance assets. Each category has a different purpose, and some are also verified during transaction confirmation and processing.
 
 The effective account balance is used to calculate the forging capacity of the account. The so-called effective balance is that the account balance has stayed more than 1,440 blocks. In addition, the account lease allows the account to lease the effective balance to other accounts;
 
@@ -182,26 +183,26 @@ The total amount of reward fees received for successfully forging the block when
 Unconfirmed balance refers to the balance in the account minus the balance in unconfirmed transactions;
 
 wallet.dat
-Bitcoin and related currencies often use an encrypted file, which is called a wallet, which is used to store the address information used to accept Bitcoin. The address of the HEBE account can also be stored in an encrypted offline file.
+Bitcoin and related currencies often use an encrypted file, which is called a wallet, which is used to store the address information used to accept Bitcoin. The address of the RANGE account can also be stored in an encrypted offline file.
 
 Equity attack
 Nothing at Stake In a zero-cost attack, the forge attempts to continue to create blocks on each branch of the block, because this behavior is almost costless to the attacker; in addition, ignoring any branch may cause Lead to the loss of block rewards, once a branch becomes a formal blockchain due to the greatest cumulative difficulty;
 
-Now such attacks are only possible in theory and are not practical; HEBE networks do not experience long block branches, and low block returns cannot provide very strong benefit incentives. Furthermore, for a small benefit, the network is affected. Security and trust are worthless.
+Now such attacks are only possible in theory and are not practical; RANGE networks do not experience long block branches, and low block returns cannot provide very strong benefit incentives. Furthermore, for a small benefit, the network is affected. Security and trust are worthless.
 
-As part of the HEBE development roadmap, a feature called the "economic set" concept can provide protection against this type of attack. It detects the non-conformity in the network by forcing the transaction to include a hash value of the previous block and grouping nodes into the cluster. Normal behavior and punishment (temporary loss of forging ability)
+As part of the RANGE development roadmap, a feature called the "economic set" concept can provide protection against this type of attack. It detects the non-conformity in the network by forcing the transaction to include a hash value of the previous block and grouping nodes into the cluster. Normal behavior and punishment (temporary loss of forging ability)
 
 History Attacks
 In a historical attack, someone obtained a large amount of currency and sold it, and then tried to replace the blockchain data with a successful branch created before the transaction; if it fails, there will be no loss to the attacker because the currency has already Successfully sold; if the attack was successful, the attacker took back the currency they had sold. An extreme example of this kind of attack is that the attacker needs to obtain the private key of the account and then build a successful branch from the genesis block;
 
-In HEBE, general historical attacks will fail, because all equity that can be used for forging needs to stay in the block to 1,440; in addition, the effective balance will be part of the block verification when the account generates each block. Extreme forms of attack will also fail, as HEBE's blockchain does not allow for more than 720 height reorganizations. This limits the attacker's ability to achieve a successful attack from a time frame;
+In RANGE, general historical attacks will fail, because all equity that can be used for forging needs to stay in the block to 1,440; in addition, the effective balance will be part of the block verification when the account generates each block. Extreme forms of attack will also fail, as RANGE's blockchain does not allow for more than 720 height reorganizations. This limits the attacker's ability to achieve a successful attack from a time frame;
 
-HEBE function
+RANGE function
 Asset system:
-Users can create their own exclusive projects on HebeBlock and conduct secure and fast peer-to-peer transactions on the HebeBlock asset exchange built into the system. This eliminates the need to transfer assets or place trust in an external agency or business.
+Users can create their own exclusive projects on RangeCoin and conduct secure and fast peer-to-peer transactions on the HebeBlock asset exchange built into the system. This eliminates the need to transfer assets or place trust in an external agency or business.
 
 Monetary system:
-The HebeBlock currency system allows users to create and trade their custom currencies. At the same time, as a specific class of assets, currency will have a number of additional features, such as the ability to use HebeToken to maintain its stable value.
+The RangeCoins currency system allows users to create and trade their custom currencies. At the same time, as a specific class of assets, currency will have a number of additional features, such as the ability to use HebeToken to maintain its stable value.
 
 Data Cloud:
 The HebeBlock data cloud is a decentralized data storage system that provides tamper-resistant timestamps. This allows legal records (such as contracts) to be embedded in the blockchain and gives absolute accuracy to when they were created.
@@ -215,43 +216,34 @@ HebeBlock accounts can secure digital assets through enhanced multi-signature me
 Anonymous mixed currency:
 Anonymous coin mixing is a decentralized anonymous privacy service that allows users to quickly and efficiently mix funds with other users, creating a random mapping relationship between existing user accounts and new accounts after coin mixing, thus Achieve complete anonymity.
 
-HEBE application
-Hebe multi-chain mobile wallet
-This is a multi-chain wallet, centered on HEBE, currently supporting currencies Hebe, Btc, Ltc, Eth, Etc, Bch, Waves, Doge, Xzc, Nxt, Ardor, Xas, Dgb, Dcr, Dash, Zec, Zen , Eac, Ltz, Ignis, Apl, Rya, Actn, built-in currency exchange, discount card, website: https://d.hebeblock.com/,
-
 It aims to solve the inconvenience of users in managing multiple digital currencies. In the future, more blockchain support and HEBE functions will be gradually added to make a decentralized wallet that supports the most chains.
 
-HEBE discount 劵
+RANGE discount 
 The shopping rebate platform is currently running normally, and the profit is used for repurchase / destroy Hebe, to list (for a certain platform, the purchase rebate profit 20w repurchase)
 
-HEBE Centralized Exchange
-Currently being tested, HEBETOKEN is used as a platform currency, which can be used for fee reduction and exemption, etc. The platform profit is used to repurchase / destroy Hebe
+RANGE Centralized Exchange
+Currently being tested, RANGECOIN is used as a platform currency, which can be used for fee reduction and exemption, etc. The platform profit is used to repurchase.
 
 The interface is as follows: (for reference only, the final product may not be the following picture) image image
 
-HEBE Decentralized Asset Exchange
-An asset decentralized exchange based on the HebeBlock blockchain can support Hebe to purchase other assets, such as (assets Btc, Eth ...)
+RANGE Decentralized Asset Exchange
+An asset decentralized exchange based on the Rangecoin blockchain can support Range to purchase other assets, such as (assets Btc, Eth ...)
 
-HEBE Death Coin Applet
-WeChat search: dead coins, providing block chain historical currency death information and scam items
-
-HEBE Novel Network
-HEBE novel search engine, which provides and only provides novel search results provided by third-party search engines https://book.hebeblock.com/
 
 Initial token distribution
-On Genesis, the token supply is 1,000,000,000 HEBE tokens. The distribution plan of HEBE tokens is as follows:
+On Genesis, the token totall supply is 23,333,333 RANGECOINS. The distribution plan of RANGECOINS is as follows:
 
 Private placement: 25%
 
-HebeBlock development team: 15% (from the start of HEBE, the team will unlock 1,000,000 per month, all of which are expected to be unlocked in 12.5 years)
+RangeCoin development team: 15% (from the start of RANGE, the team will unlock 1,000,0 per month, all of which are expected to be unlocked in 12.5 years)
 
 HEBE Foundation: 15% (reserved to support the operation of the foundation)
 
 Ecosystem development: 40% (residential applications; subsidies to potential users; incentives to outstanding partners; potential public sales)
 
-HEBE mobile wallet Airdrop: 5% (used to attract users, early support for NXT and Ardor, as the wallet currency increases, the supported currencies will also increase)
+RANGE payments app Airdrop: 5% (used to attract users, early support for NXT and Ardor, as the wallet currency increases, the supported currencies will also increase)
 
-Proceeds from the sale of HEBE tokens will first be used for the development of the HEBE network. The planned usage distribution is as follows:
+Proceeds from the sale of RANGECOINS will first be used for the development of the RANGE network. The planned usage distribution is as follows:
 
 Foundation operations: 10% (including service provider and contractor costs, such as audit, consulting, legal and other third-party costs, and other administrative costs)
 
@@ -264,17 +256,13 @@ R & D sponsorship: 10% (including conferences, research programs, and university
 Marketing and promotion: 20% (including business development, community planning and outreach, and related travel, communication, publishing, distribution and other expenses)
 
 route map
-The expected HEBE projects are as follows. We reiterate that the roadmap is for reference only and is subject to change.
+The expected RANGE projects are as follows. We reiterate that the roadmap is for reference only and is subject to change.
 
-The first phase (September 2018 ~ March 2019) will focus on the launch and operation of HEBE. We also release initialized mobile clients for the HEBE network
+The first phase (September 2018 ~ March 2019) will focus on the launch and operation of RANGE. We also release initialized mobile clients for the RANGE network
 
-The second phase (February 2019 ~ April 2019) will focus on the exchange sale of HEBE, and contact the exchange
+The second phase (February 2019 ~ April 2019) will focus on the exchange sale of RANGE, and contact the exchange
 
-The third stage (April 2019 ~ December 2019) formed the HEBE team, developed a new web wallet, developed the HEBE mobile client, and developed a centralized exchange.
+The third stage (April 2019 ~ December 2019) formed the RANGE team, developed a new web wallet, developed the HEBE mobile client, and developed a centralized exchange.
 
-The fourth phase (after January 2020) will focus on the underlying rewrite of the HEBE network, improve the efficiency of the HEBE network, further technological innovations in the HEBE SDK and mobile clients, and developer participation
+The fourth phase (after January 2020) will focus on the underlying rewrite of the HEBE network, improve the efficiency of the RANGE network, further technological innovations in the HEBE SDK and mobile clients, and developer participation
 
-team
-zhang: Full-stack development engineer with rich software development experience. The founder of walletnxt wallet, who was in charge of NXT promotion in the Chinese community and NXT wallet client development
-
-tvrosina: operation and maintenance engineer, responsible for maintaining and studying the HEBE node deployment environment, such as: arranging HEBE nodes on the Raspberry Pi 3B +, using Xiaomi 1S mobile phones as HEBE nodes, etc.
