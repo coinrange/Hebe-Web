@@ -199,19 +199,19 @@ In RANGE, general historical attacks will fail, because all equity that can be u
 
 RANGE function
 Asset system:
-Users can create their own exclusive projects on RangeCoin and conduct secure and fast peer-to-peer transactions on the HebeBlock asset exchange built into the system. This eliminates the need to transfer assets or place trust in an external agency or business.
+Users can create their own exclusive projects on RangeCoin and conduct secure and fast peer-to-peer transactions on the RangeCoin asset exchange built into the system. This eliminates the need to transfer assets or place trust in an external agency or business.
 
 Monetary system:
 The RangeCoins currency system allows users to create and trade their custom currencies. At the same time, as a specific class of assets, currency will have a number of additional features, such as the ability to use HebeToken to maintain its stable value.
 
 Data Cloud:
-The HebeBlock data cloud is a decentralized data storage system that provides tamper-resistant timestamps. This allows legal records (such as contracts) to be embedded in the blockchain and gives absolute accuracy to when they were created.
+The RangeCoin data cloud is a decentralized data storage system that provides tamper-resistant timestamps. This allows legal records (such as contracts) to be embedded in the blockchain and gives absolute accuracy to when they were created.
 
 Voting system:
-Decentralized systems and organizations need a means to reach consensus. The HebeBlock voting system is part of the HebeBlock account control system, allowing a group of users to approve or reject transactions. The results of HebeBlock voting can be used in many ways, depending on the characteristics of the project.
+Decentralized systems and organizations need a means to reach consensus. The RangeCoin voting system is part of the RangeCoin account control system, allowing a group of users to approve or reject transactions. The results of HebeBlock voting can be used in many ways, depending on the characteristics of the project.
 
 Account Control:
-HebeBlock accounts can secure digital assets through enhanced multi-signature methods. The account owner can set the account to be restricted by the voting system mentioned above, which means that the user can restrict access to the account by some unknown sources or prohibit transactions without the approval of multiple parties.
+RangeCoin accounts can secure digital assets through enhanced multi-signature methods. The account owner can set the account to be restricted by the voting system mentioned above, which means that the user can restrict access to the account by some unknown sources or prohibit transactions without the approval of multiple parties.
 
 Anonymous mixed currency:
 Anonymous coin mixing is a decentralized anonymous privacy service that allows users to quickly and efficiently mix funds with other users, creating a random mapping relationship between existing user accounts and new accounts after coin mixing, thus Achieve complete anonymity.
